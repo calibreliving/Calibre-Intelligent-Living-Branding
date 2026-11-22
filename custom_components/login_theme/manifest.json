@@ -1,0 +1,14 @@
+{
+  "domain": "login_theme",
+  "name": "Calibre Intelligent Living",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": ["frontend", "http"],
+  "documentation": "https://github.com/calibreliving/Calibre-Intelligent-Living-Branding",
+  "issue_tracker": "https://github.com/calibreliving/Calibre-Intelligent-Living-Branding/issues",
+  "integration_type": "service",
+  "iot_class": "local_push",
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "2.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Calibre Intelligent Living",
+        "description": "Adds the Calibre Intelligent Living theme (light and dark mode), the Calibre sidebar wordmark and menu icon, and a themed login page for local and remote connections.",
+        "data": {
+          "set_default_theme": "Make Calibre Intelligent Living the default theme"
+        },
+        "data_description": {
+          "set_default_theme": "Sets it as the default for light and dark mode. Users who picked a theme in their profile keep their choice."
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Calibre Intelligent Living is already set up."
+    }
+  }
+}

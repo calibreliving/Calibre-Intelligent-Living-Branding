@@ -1,4 +1,8 @@
 (function () {
+  // Run once per page even if a standalone copy is still registered.
+  if (window.__calibreSidebarBranding) return;
+  window.__calibreSidebarBranding = true;
+
   function deepQuery(root, selector) {
     let found;
     try {
